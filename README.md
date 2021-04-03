@@ -15,10 +15,14 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4619/badge)](https://bestpractices.coreinfrastructure.org/projects/4619)
 
 ## Toby's docker-compose.yml changes
-- Docker Env Vars
+- Docker App Env Vars
   - APP_PORT=16002
   - MONGODB_IP="wekandb"
   - ROOT_URL="https://board.odin.ws"
+- Docker General Env Vars (for right date and time format)
+  - LANG=en_GB.UTF-8
+  - LANGUAGE=en_GB:en 
+  - LC_ALL=en_GB.UTF-8
 
 ## [Translate Wekan at Transifex](https://transifex.com/wekan/wekan)
 
