@@ -14,6 +14,12 @@
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwekan%2Fwekan.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwekan%2Fwekan?ref=badge_shield)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4619/badge)](https://bestpractices.coreinfrastructure.org/projects/4619)
 
+## Toby's docker-compose.yml changes
+- Docker Env Vars
+  - APP_PORT=16002
+  - MONGODB_IP="wekandb"
+  - ROOT_URL="https://board.odin.ws"
+
 ## [Translate Wekan at Transifex](https://transifex.com/wekan/wekan)
 
 Translations to non-English languages are accepted only at [Transifex](https://transifex.com/wekan/wekan) using webbrowser.
